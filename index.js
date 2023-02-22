@@ -19,11 +19,11 @@ let up;
 let left;
 let right;
 function preload() {
-  grass = loadImage('grass-dp.png');
-  down = loadImage('down.png');
-  up = loadImage("up.png");
-  left = loadImage("left.png")
-  right = loadImage("right.png")
+  grass = loadImage('./images/grass-dp.png');
+  down = loadImage('./images/down.png');
+  up = loadImage("./images/up.png");
+  left = loadImage("./images/left.png");
+  right = loadImage("./images/right.png");
 }
 
 function setup() {
